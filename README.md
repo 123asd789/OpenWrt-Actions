@@ -8,10 +8,7 @@
 | [360T7](https://github.com/QiYueYiya/OpenWrt-Actions/tree/main/360T7) | [![](https://github.com/QiYueYiya/OpenWrt-Actions/actions/workflows/360T7.yml/badge.svg)](https://github.com/QiYueYiya/OpenWrt-Actions/actions/workflows/360T7.yml) | [Config](https://github.com/QiYueYiya/OpenWrt-Actions/blob/main/360T7/.config) | [软件源](https://github.com/QiYueYiya/OpenWrt-Actions/blob/main/360T7/files/etc/opkg/distfeeds.conf) | [下载链接](https://github.com/QiYueYiya/OpenWrt-Actions/releases/tag/360T7) |
 | [360T7-AP](https://github.com/QiYueYiya/OpenWrt-Actions/tree/main/360T7-AP) | [![](https://github.com/QiYueYiya/OpenWrt-Actions/actions/workflows/360T7-AP.yml/badge.svg)](https://github.com/QiYueYiya/OpenWrt-Actions/actions/workflows/360T7-AP.yml) | [Config](https://github.com/QiYueYiya/OpenWrt-Actions/blob/main/360T7/.config) | [软件源](https://github.com/QiYueYiya/OpenWrt-Actions/blob/main/360T7-AP/files/etc/opkg/distfeeds.conf) | [下载链接](https://github.com/QiYueYiya/OpenWrt-Actions/releases/tag/360T7-AP) |
 
-## 一键配置UA2F
-```bash
-bash <(curl -sSL https://raw.nuaa.cf/QiYueYiya/OpenWrt-Actions/main/ua2f.sh)
-```
+
 
 ### 验证
 - 进行测试时请确保你没用使用任何VPN代理，因为VPN代理会加密流量进而导致UA2F不会去修改加密请求的UA
